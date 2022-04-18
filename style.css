@@ -184,8 +184,21 @@ h1 {
 }
 
 .container {
-    background-image: url(./images/image4.jpeg);
+    background-image: url(./images/about.jpg);
     background-size: cover;
+    background-position: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 20px;
+}
+.container .button{
+    text-decoration: none;
+    border: rgb(66, 85, 42) 1px solid;
+    background-color: #343d56;
+    padding: 4px 8px;
+    box-shadow: violet;
+    border-radius: 75px;
+    color: white;
 }
 
 h2 {
