@@ -66,6 +66,7 @@ nav ul li a:hover {
     padding: 20px 25px;
     box-shadow: violet;
     border-radius: 75px;
+   
 } 
 
 .btn {
@@ -79,6 +80,7 @@ nav ul li a:hover {
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     top: 3px;
     right: 3px;
+    color: white;
 }
 
 .btn:hover {
@@ -136,8 +138,9 @@ a:hover {
 }
 
 .active,
-.menu ul li:hover .sub-menu {
+.menu ul li:hover .sub-menu{
     display: block;
+    text-align: vertically;
     /* position: absolute; */
     background: #994264;
     margin-top: 15px;
@@ -176,6 +179,7 @@ a:hover {
 
 p {
     color: black;
+    line-height: 35px;
 }
 
 h1 {
@@ -209,4 +213,16 @@ h3{
     display: flex;
     justify-content: center;
     line-height: 28px;
+}
+
+.front .btn{
+    border: 1px salmon ;
+    color: white;
+}
+.front p{
+    display: flex;
+    justify-content: center;
+}
+.pizza{
+    padding: 20px 25px;
 }
