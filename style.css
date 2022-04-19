@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* height: 100vh; */
 }
 
 .file {
@@ -27,16 +28,20 @@ nav {
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
 }
 
 .self {
     cursor: pointer;
     border-radius: 65px;
     background-image: url(./images/image8.jpeg);
-
+}
+.social-links{
+    padding-block-end: 20px;
+    padding-right: 60px;
+   
 }
 
 nav ul li {
@@ -45,6 +50,7 @@ nav ul li {
     margin: 10px 20px;
     padding: 10px 25px;
     border-top-color: #704b4b;
+    border-radius: 65px;
 }
 
 nav ul li a {
@@ -89,6 +95,7 @@ nav ul li a:hover {
 
 .aboutMe {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding-top: 60px/; */
 }
 
 span {
@@ -137,30 +144,31 @@ a:hover {
     display: none;
 }
 
-.active,
 .menu ul li:hover .sub-menu{
     display: block;
     text-align: vertically;
-    /* position: absolute; */
+    position: absolute;
     background: #994264;
     margin-top: 15px;
     margin-left: -15px;
 }
 
-.active,
 .menu ul li:hover .sub-menu ul {
     display: block;
     margin: 10px;
 }
 
-.active,
 .menu ul li:hover .sub-menu ul li {
     width: 150px;
     padding: 10px;
     border-bottom: 1px dotted #000;
-    /* background: transparent; */
+    background: transparent;
     border-radius: 10px;
     text-align: left;
+}
+
+.menu ul li:hover .sub-menu ul li a:hover{
+    color: #704b4b;
 }
 
 .page {
@@ -188,7 +196,7 @@ h1 {
 }
 
 .container {
-    background-image: url(./images/about.jpg);
+    background-color: #dfe2e1;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -204,7 +212,9 @@ h1 {
     border-radius: 75px;
     color: white;
 }
-
+.image{
+    border-radius: 60px;
+}
 h2 {
     display: flex;
     justify-content: center;
@@ -214,9 +224,15 @@ h3{
     justify-content: center;
     line-height: 28px;
 }
-
+.front-end{
+    display: flex;
+    padding: 20px 20px;
+    /* background: dimgrey; */
+    /* float: left; */
+    /* justify-content: center; */
+}
 .front .btn{
-    border: 1px salmon ;
+    /* border: 1px salmon ; */
     color: white;
 }
 .front p{
@@ -231,6 +247,9 @@ h3{
         flex-direction: column;
     }
     .menu ul{
-        display: block;
+        display: flex;
+    }
+    .page{
+        /* margin-right: 20px; */
     }
 }
