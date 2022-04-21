@@ -1,9 +1,8 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     /* height: 100vh; */
-}
 
 .file {
     background-color: rgb(224, 187, 187);
@@ -227,13 +226,16 @@ h3{
 .front-end{
     display: flex;
     padding: 20px 20px;
-    /* background: dimgrey; */
+    background: dimgrey;
     /* float: left; */
     /* justify-content: center; */
 }
-.front .btn{
-    /* border: 1px salmon ; */
+.front-end .button{
+    /* border: 1px salmon ;̣ */
     color: white;
+    padding: 10px 15px;
+    background-color:rgb(62, 42, 85);
+
 }
 .front p{
     display: flex;
@@ -251,5 +253,14 @@ h3{
     }
     .page{
         /* margin-right: 20px; */
+    }
+    .paragraph{
+        flex-direction: column;
+    }
+    .front p{
+        flex-direction: column;
+    }
+    .front-end{
+        flex-direction: column;
     }
 }
